@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sachinweather="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sachin.yahoo.weather.app.MainActivity">
+    <item android:id="@+id/currentLocation"
+        android:icon="@drawable/icon_location"
+        android:title="@string/update_location"
+        sachinweather:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+</menu>
